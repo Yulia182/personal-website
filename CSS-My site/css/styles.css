@@ -1,0 +1,119 @@
+/**************************TAG SELECTORS**********************************/
+body{
+  margin:0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+
+h1{
+  color: #66BFBF;
+  font-size: 5.625rem;
+  font-family: 'Sacramento', cursive;
+  line-height: 2;
+  margin: 50px auto 0 auto;
+}
+h2{
+  color: #66BFBF;
+  font-weight: normal;
+  font-size: 2.2rem;
+  font-family: 'Asul', sans-serif;
+
+}
+h3{
+  color: #11999E;
+  font-family: 'Asul', sans-serif;
+}
+
+hr{
+  border-style: dotted none none;
+  border-width: 7px;
+  border-color: #CDF0EA;
+  width: 5%;
+  margin: 80px auto;
+}
+/************************CLASS SELECTORS***********************************/
+.top-container{
+  background-color: #CDF0EA;
+  position: relative;
+  padding-top: 100px;
+
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+  line-height: 2;
+  padding: 30px;
+}
+
+.footer-link{
+  color: #11999E;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+.bottom-cloud{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+
+}
+.top-cloud{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.my-picture{
+  width: 200px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.skill-one{
+  width:25%;
+  float:left;
+  margin-right: 30px;
+
+}
+.skill-two{
+  float:right;
+  margin-left: 30px;
+  width:25%;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 80px auto 150px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.contact-me{
+  line-height: 2;
+  width: 50%;
+  margin: 30px auto;
+}
+.btn {
+  margin: 20px auto 40px auto;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: Helvetica;
+   font-size: 15px;
+   font-weight: 300;
+   padding: 11px;
+   background-color: #11999E;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+.end{
+  color: white;
+  font-size: 0.85rem;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
